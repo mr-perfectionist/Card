@@ -1,5 +1,5 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
+   
 
 }
 
@@ -14,8 +14,7 @@
 
 
 
-@media (min-width: 1200px) { 
-
+@media (min-width: 1200px) and (max-width: 1500px) { 
     .sidenav {
         width: 195px;
     }
@@ -39,11 +38,13 @@
     section.cardsection {
         margin-left: 154px;
     }
-    i.fas.fa-angle-right {
-        margin-left: 172px;
+    .lg p i {
         position: absolute;
-        left: -2%;
-        top: 21%;
+        top: 7%;
+        left: 13%;
     }
-
+    .lg p {
+        position: relative;
+    }
+ 
 }
