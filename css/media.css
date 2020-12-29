@@ -1,0 +1,49 @@
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+
+}
+
+
+
+@media (max-width: 575.99px) {
+
+   
+
+
+}
+
+
+
+@media (min-width: 1200px) { 
+
+    .sidenav {
+        width: 195px;
+    }
+    .sidenav .options a {
+    
+        font-size: 16px;
+    }
+    button.btn.btn-danger {
+        margin-top: 81px;
+        height: 38px;
+    }
+    i.fas.fa-yin-yang {
+        position: absolute;
+        top: 75%;
+        left: 23%;
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    section.cardsection {
+        margin-left: 154px;
+    }
+    i.fas.fa-angle-right {
+        margin-left: 172px;
+        position: absolute;
+        left: -2%;
+        top: 21%;
+    }
+
+}
