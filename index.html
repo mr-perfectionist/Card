@@ -1,0 +1,909 @@
+
+
+ <!doctype html>
+ <html lang="en">
+   <head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/all.min.css">
+     <title>Hello, world!</title>
+   </head>
+   <body style="background-color: #FCFBFF;">
+ 
+     <header>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+ 
+                 <nav class="navbar navbar-expand-lg navbar bg-black">
+                     <div class="container-fluid">
+                         <a class="navbar-brand" href="#" style="color: white;margin-left: 60px;">Tasks</a>
+                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                           
+                           <li class="nav-item">
+                             <p class="nav-link">Sort by :</p>
+                           </li>
+                           <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="
+     color: #000000;
+ ">
+                               All
+                             </a>
+                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                               <li><a class="dropdown-item" href="#">Action</a></li>
+                               <li><a class="dropdown-item" href="#">Another action</a></li>
+                               <li><hr class="dropdown-divider"></li>
+                               <li><a class="dropdown-item" href="#">Something else here</a></li>
+                             </ul>
+                           </li>
+                           
+                         </ul>
+                         <form class="d-flex">
+                           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                           <button class="btn btn-outline-success" type="submit">Search</button>
+                         </form>
+ 
+                         <li class="nav-item dropdown">
+                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="
+     color: white;
+ ">
+                              <i class="fab fa-whmcs"></i>  <i class="fas fa-arrow-down"></i>
+                             </a>
+                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                               <li><a class="dropdown-item" href="#">Settings</a></li>
+                               <li><a class="dropdown-item" href="#"> View more</a></li>
+                               <li><hr class="dropdown-divider"></li>
+                               <li><a class="dropdown-item" href="#">Action</a></li>
+                             </ul>
+                           </li>
+                       </div>
+                     </div>
+                   </nav>
+             </div>
+         </div>
+     
+     </header>
+ 
+     <div class="sidenav">
+ 
+         <div class="logos">
+            <i class="fas fa-yin-yang"></i>  <h2>ONLY1</h2>
+         </div>
+ 
+         <div class="options">
+ 
+         
+         <a href="#about"><i class="fas fa-home"></i> Dashboard</a>
+         <a href="#services"><i class="fas fa-users"></i> My team</a>
+         <a href="#clients"><i class="fas fa-tasks"></i> Tasks</a>
+         <a href="#contact"><i class="fas fa-calendar-week"></i> Calender</a>
+         <a href="#contact"><i class="far fa-chart-bar"></i> Report</a>
+         <a href="#contact"><i class="fas fa-cog"></i> Settings</a>
+ 
+         <button type="button" class="btn btn-danger" style="
+     margin-top: 210px;
+     height: 56px;
+ "> <i class="fas fa-sign-out-alt"></i>  Logout</button>
+       </div>
+     </div>
+ 
+                      <!-- Card Section -->
+ <section class="names">
+ 
+ 
+ <div class="container">
+     <div class="row">
+         <div class="col-sm-3 lg">
+             <p style="
+             color: brown;
+             font-weight: 600;
+             /* margin-left: 12px; */
+         ">New project   <i class="fas fa-angle-right"></i>  </p>
+         </div>
+         <div class="col-sm-3 lg">
+             <p style="
+             color: blue;
+             font-weight: 600;
+             /* margin-left: 12px; */
+         ">New project   <i class="fas fa-angle-right"></i>  </p>
+         </div>
+         <div class="col-sm-3 lg">
+             <p style="
+             color: rgb(238, 13, 144);
+             font-weight: 600;
+             /* margin-left: 12px; */
+         ">New project   <i class="fas fa-angle-right"></i>  </p>
+         </div>
+         <div class="col-sm-3 lg">
+            <p style="
+             color: #ffc107;
+             font-weight: 600;
+             /* margin-left: 12px; */
+         ">New project   <i class="fas fa-angle-right"></i>  </p>
+         </div>
+     </div>
+ </div>
+ </section>
+ 
+ 
+ <section class="card1">
+ <div class="container">
+     <div class="row">
+         <div class="col-sm-3">
+            <div class="card">
+                <img src="images/card1.png" alt="Avatar" style="width:100%">
+                <div class="container fr">
+                  <h4><b>App UX Design</b></h4> 
+                  <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste in optio facere debitis?</p> 
+    
+        <div class="row incptn">
+              <div class="col-sm-4">
+                <p style="
+    background: lightgray;
+    color: black;
+"><i class="fas fa-stopwatch"" style="
+margin-left: 2px;
+"></i>  10 </p>
+
+
+              </div>
+              <div class="col-sm-4">
+                <p style="
+                background: lightgray;
+                color: black;
+            "><i class="fas fa-angle-right" style="
+                margin-left: 2px;
+            "></i>  2.5 </p>
+            </div>
+            <div class="col-sm-4">
+                <p style="
+                font-size: 12px;
+                margin-top: 2px;
+                color: red;
+            "><i class="fas fa-angle-right" style="
+                margin-left: 2px;
+            "></i>  2W Left </p>
+            </div>
+        </div>
+    
+
+    <meter style="width: 180px;height: 20px;/* padding-top: 0px; */margin-top: 20px;" value="0.6">60%</meter>
+
+
+<div class="thumbs">
+    <img class="thumbs1" src="images/thumb1.png" alt="">
+    <img class="thumbs2" src="images/thumb2.png" alt="">
+    <img class="thumbs3" src="images/thumb1.png" alt="">
+    <img class="thumbs4" src="images/thumb2.png" alt="">
+    <img class="thumbs5" src="images/thumb1.png" alt="">
+    <i class="fas fa-plus"></i>
+</div>
+
+                </div>
+              </div>
+         </div>
+
+
+
+
+
+
+
+         <div class="col-sm-3">
+            <div class="card">
+                <img src="images/card2.png" alt="Avatar" style="width:100%">
+                <div class="container fr">
+                  <h4><b>App UX Design</b></h4> 
+                  <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste in optio facere debitis?</p> 
+    
+        <div class="row incptn">
+              <div class="col-sm-4">
+                <p style="
+    background: lightgray;
+    color: black;
+"><i class="fas fa-stopwatch"" style="
+margin-left: 2px;
+"></i>  10 </p>
+
+
+              </div>
+              <div class="col-sm-4">
+                <p style="
+                background: lightgray;
+                color: black;
+            "><i class="fas fa-angle-right" style="
+                margin-left: 2px;
+            "></i>  2.5 </p>
+            </div>
+            <div class="col-sm-4">
+                <p style="
+                font-size: 12px;
+                margin-top: 2px;
+                color: red;
+            "><i class="fas fa-angle-right" style="
+                margin-left: 2px;
+            "></i>  2W Left </p>
+            </div>
+        </div>
+    
+
+    <meter style="width: 180px;height: 20px;/* padding-top: 0px; */margin-top: 20px;" value="0.36">36%</meter>
+
+
+<div class="thumbs">
+    <img class="thumbs1" src="images/thumb1.png" alt="">
+    <img class="thumbs2" src="images/thumb2.png" alt="">
+    <img class="thumbs3" src="images/thumb1.png" alt="">
+    <img class="thumbs4" src="images/thumb2.png" alt="">
+    <img class="thumbs5" src="images/thumb1.png" alt="">
+    <i class="fas fa-plus"></i>
+</div>
+
+                </div>
+              </div>
+         </div>
+
+
+
+
+
+         <div class="col-sm-3">
+            <div class="card">
+                <img src="images/card3.png" alt="Avatar" style="width:100%">
+                <div class="container fr">
+                  <h4><b>App UX Design</b></h4> 
+                  <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste in optio facere debitis?</p> 
+    
+        <div class="row incptn">
+              <div class="col-sm-4">
+                <p style="
+    background: lightgray;
+    color: black;
+"><i class="fas fa-stopwatch"" style="
+margin-left: 2px;
+"></i>  10 </p>
+
+
+              </div>
+              <div class="col-sm-4">
+                <p style="
+                background: lightgray;
+                color: black;
+            "><i class="fas fa-angle-right" style="
+                margin-left: 2px;
+            "></i>  2.5 </p>
+            </div>
+            <div class="col-sm-4">
+                <p style="
+                font-size: 12px;
+                margin-top: 2px;
+                color: red;
+            "><i class="fas fa-angle-right" style="
+                margin-left: 2px;
+            "></i>  2W Left </p>
+            </div>
+        </div>
+    
+
+    <meter style="width: 180px;height: 20px;/* padding-top: 0px; */margin-top: 20px;" value="0.92">92%</meter>
+
+
+<div class="thumbs">
+    <img class="thumbs1" src="images/thumb1.png" alt="">
+    <img class="thumbs2" src="images/thumb2.png" alt="">
+    <img class="thumbs3" src="images/thumb1.png" alt="">
+    <img class="thumbs4" src="images/thumb2.png" alt="">
+    <img class="thumbs5" src="images/thumb1.png" alt="">
+    <i class="fas fa-plus"></i>
+</div>
+
+                </div>
+              </div>
+         </div>
+
+
+
+
+         <div class="col-sm-3">
+            <div class="card">
+                <img src="images/card4.png" alt="Avatar" style="width:100%">
+                <div class="container fr">
+                  <h4><b>App UX Design</b></h4> 
+                  <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste in optio facere debitis?</p> 
+    
+        <div class="row incptn">
+              <div class="col-sm-4">
+                <p style="
+    background: lightgray;
+    color: black;
+"><i class="fas fa-stopwatch"" style="
+margin-left: 2px;
+"></i>  10 </p>
+
+
+              </div>
+              <div class="col-sm-4">
+                <p style="
+                background: lightgray;
+                color: black;
+            "><i class="fas fa-angle-right" style="
+                margin-left: 2px;
+            "></i>  2.5 </p>
+            </div>
+            <div class="col-sm-4">
+                <p style="
+                font-size: 12px;
+                margin-top: 2px;
+                color: red;
+            "><i class="fas fa-angle-right" style="
+                margin-left: 2px;
+            "></i>  2W Left </p>
+            </div>
+        </div>
+    
+
+    <meter style="width: 180px;height: 20px;/* padding-top: 0px; */margin-top: 20px;" value="0.51">51%</meter>
+
+
+<div class="thumbs">
+    <img class="thumbs1" src="images/thumb1.png" alt="">
+    <img class="thumbs2" src="images/thumb2.png" alt="">
+    <img class="thumbs3" src="images/thumb1.png" alt="">
+    <img class="thumbs4" src="images/thumb2.png" alt="">
+    <img class="thumbs5" src="images/thumb1.png" alt="">
+    <i class="fas fa-plus"></i>
+</div>
+
+                </div>
+              </div>
+         </div>
+
+
+
+        </section>
+
+
+
+
+
+
+        <section class="card1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                       <div class="card">
+                           <img src="images/card1.png" alt="Avatar" style="width:100%">
+                           <div class="container fr">
+                             <h4><b>App UX Design</b></h4> 
+                             <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste in optio facere debitis?</p> 
+               
+                   <div class="row incptn">
+                         <div class="col-sm-4">
+                           <p style="
+               background: lightgray;
+               color: black;
+           "><i class="fas fa-stopwatch"" style="
+           margin-left: 2px;
+           "></i>  10 </p>
+           
+           
+                         </div>
+                         <div class="col-sm-4">
+                           <p style="
+                           background: lightgray;
+                           color: black;
+                       "><i class="fas fa-angle-right" style="
+                           margin-left: 2px;
+                       "></i>  2.5 </p>
+                       </div>
+                       <div class="col-sm-4">
+                           <p style="
+                           font-size: 12px;
+                           margin-top: 2px;
+                           color: red;
+                       "><i class="fas fa-angle-right" style="
+                           margin-left: 2px;
+                       "></i>  2W Left </p>
+                       </div>
+                   </div>
+               
+           
+               <meter style="width: 180px;height: 20px;/* padding-top: 0px; */margin-top: 20px;" value="0.6">60%</meter>
+           
+           
+           <div class="thumbs">
+               <img class="thumbs1" src="images/thumb1.png" alt="">
+               <img class="thumbs2" src="images/thumb2.png" alt="">
+               <img class="thumbs3" src="images/thumb1.png" alt="">
+               <img class="thumbs4" src="images/thumb2.png" alt="">
+               <img class="thumbs5" src="images/thumb1.png" alt="">
+               <i class="fas fa-plus"></i>
+           </div>
+           
+                           </div>
+                         </div>
+                    </div>
+           
+           
+           
+           
+           
+           
+           
+                    <div class="col-sm-3">
+                       <div class="card">
+                           <img src="images/card4.png" alt="Avatar" style="width:100%">
+                           <div class="container fr">
+                             <h4><b>App UX Design</b></h4> 
+                             <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste in optio facere debitis?</p> 
+               
+                   <div class="row incptn">
+                         <div class="col-sm-4">
+                           <p style="
+               background: lightgray;
+               color: black;
+           "><i class="fas fa-stopwatch"" style="
+           margin-left: 2px;
+           "></i>  10 </p>
+           
+           
+                         </div>
+                         <div class="col-sm-4">
+                           <p style="
+                           background: lightgray;
+                           color: black;
+                       "><i class="fas fa-angle-right" style="
+                           margin-left: 2px;
+                       "></i>  2.5 </p>
+                       </div>
+                       <div class="col-sm-4">
+                           <p style="
+                           font-size: 12px;
+                           margin-top: 2px;
+                           color: red;
+                       "><i class="fas fa-angle-right" style="
+                           margin-left: 2px;
+                       "></i>  2W Left </p>
+                       </div>
+                   </div>
+               
+           
+               <meter style="width: 180px;height: 20px;/* padding-top: 0px; */margin-top: 20px;" value="0.6">60%</meter>
+           
+           
+           <div class="thumbs">
+               <img class="thumbs1" src="images/thumb1.png" alt="">
+               <img class="thumbs2" src="images/thumb2.png" alt="">
+               <img class="thumbs3" src="images/thumb1.png" alt="">
+               <img class="thumbs4" src="images/thumb2.png" alt="">
+               <img class="thumbs5" src="images/thumb1.png" alt="">
+               <i class="fas fa-plus"></i>
+           </div>
+           
+                           </div>
+                         </div>
+                    </div>
+           
+           
+           
+           
+           
+                    <div class="col-sm-3">
+                       <div class="card">
+                           <img src="images/card3.png" alt="Avatar" style="width:100%">
+                           <div class="container fr">
+                             <h4><b>App UX Design</b></h4> 
+                             <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste in optio facere debitis?</p> 
+               
+                   <div class="row incptn">
+                         <div class="col-sm-4">
+                           <p style="
+               background: lightgray;
+               color: black;
+           "><i class="fas fa-stopwatch"" style="
+           margin-left: 2px;
+           "></i>  10 </p>
+           
+           
+                         </div>
+                         <div class="col-sm-4">
+                           <p style="
+                           background: lightgray;
+                           color: black;
+                       "><i class="fas fa-angle-right" style="
+                           margin-left: 2px;
+                       "></i>  2.5 </p>
+                       </div>
+                       <div class="col-sm-4">
+                           <p style="
+                           font-size: 12px;
+                           margin-top: 2px;
+                           color: red;
+                       "><i class="fas fa-angle-right" style="
+                           margin-left: 2px;
+                       "></i>  2W Left </p>
+                       </div>
+                   </div>
+               
+           
+               <meter style="width: 180px;height: 20px;/* padding-top: 0px; */margin-top: 20px;" value="0.6">60%</meter>
+           
+           
+           <div class="thumbs">
+               <img class="thumbs1" src="images/thumb1.png" alt="">
+               <img class="thumbs2" src="images/thumb2.png" alt="">
+               <img class="thumbs3" src="images/thumb1.png" alt="">
+               <img class="thumbs4" src="images/thumb2.png" alt="">
+               <img class="thumbs5" src="images/thumb1.png" alt="">
+               <i class="fas fa-plus"></i>
+           </div>
+           
+                           </div>
+                         </div>
+                    </div>
+           
+           
+           
+           
+                    <div class="col-sm-3">
+                       <div class="card">
+                           <img src="images/card4.png" alt="Avatar" style="width:100%">
+                           <div class="container fr">
+                             <h4><b>App UX Design</b></h4> 
+                             <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste in optio facere debitis?</p> 
+               
+                   <div class="row incptn">
+                         <div class="col-sm-4">
+                           <p style="
+               background: lightgray;
+               color: black;
+           "><i class="fas fa-stopwatch"" style="
+           margin-left: 2px;
+           "></i>  10 </p>
+           
+           
+                         </div>
+                         <div class="col-sm-4">
+                           <p style="
+                           background: lightgray;
+                           color: black;
+                       "><i class="fas fa-angle-right" style="
+                           margin-left: 2px;
+                       "></i>  2.5 </p>
+                       </div>
+                       <div class="col-sm-4">
+                           <p style="
+                           font-size: 12px;
+                           margin-top: 2px;
+                           color: red;
+                       "><i class="fas fa-angle-right" style="
+                           margin-left: 2px;
+                       "></i>  2W Left </p>
+                       </div>
+                   </div>
+               
+           
+               <meter style="width: 180px;height: 20px;/* padding-top: 0px; */margin-top: 20px;" value="0.6">60%</meter>
+           
+           
+           <div class="thumbs">
+               <img class="thumbs1" src="images/thumb1.png" alt="">
+               <img class="thumbs2" src="images/thumb2.png" alt="">
+               <img class="thumbs3" src="images/thumb1.png" alt="">
+               <img class="thumbs4" src="images/thumb2.png" alt="">
+               <img class="thumbs5" src="images/thumb1.png" alt="">
+               <i class="fas fa-plus"></i>
+           </div>
+           
+                           </div>
+                         </div>
+                    </div>
+           
+           
+           
+                   </section>
+           
+    
+
+
+
+
+                   <section class="card1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                               <div class="card">
+                                   <img src="images/card1.png" alt="Avatar" style="width:100%">
+                                   <div class="container fr">
+                                     <h4><b>App UX Design</b></h4> 
+                                     <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste in optio facere debitis?</p> 
+                       
+                           <div class="row incptn">
+                                 <div class="col-sm-4">
+                                   <p style="
+                       background: lightgray;
+                       color: black;
+                   "><i class="fas fa-stopwatch"" style="
+                   margin-left: 2px;
+                   "></i>  10 </p>
+                   
+                   
+                                 </div>
+                                 <div class="col-sm-4">
+                                   <p style="
+                                   background: lightgray;
+                                   color: black;
+                               "><i class="fas fa-angle-right" style="
+                                   margin-left: 2px;
+                               "></i>  2.5 </p>
+                               </div>
+                               <div class="col-sm-4">
+                                   <p style="
+                                   font-size: 12px;
+                                   margin-top: 2px;
+                                   color: red;
+                               "><i class="fas fa-angle-right" style="
+                                   margin-left: 2px;
+                               "></i>  2W Left </p>
+                               </div>
+                           </div>
+                       
+                   
+                       <meter style="width: 180px;height: 20px;/* padding-top: 0px; */margin-top: 20px;" value="0.6">60%</meter>
+                   
+                   
+                   <div class="thumbs">
+                       <img class="thumbs1" src="images/thumb1.png" alt="">
+                       <img class="thumbs2" src="images/thumb2.png" alt="">
+                       <img class="thumbs3" src="images/thumb1.png" alt="">
+                       <img class="thumbs4" src="images/thumb2.png" alt="">
+                       <img class="thumbs5" src="images/thumb1.png" alt="">
+                       <i class="fas fa-plus"></i>
+                   </div>
+                   
+                                   </div>
+                                 </div>
+                            </div>
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                            <div class="col-sm-3">
+                               <div class="card">
+                                   <img src="images/card2.png" alt="Avatar" style="width:100%">
+                                   <div class="container fr">
+                                     <h4><b>App UX Design</b></h4> 
+                                     <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste in optio facere debitis?</p> 
+                       
+                           <div class="row incptn">
+                                 <div class="col-sm-4">
+                                   <p style="
+                       background: lightgray;
+                       color: black;
+                   "><i class="fas fa-stopwatch"" style="
+                   margin-left: 2px;
+                   "></i>  10 </p>
+                   
+                   
+                                 </div>
+                                 <div class="col-sm-4">
+                                   <p style="
+                                   background: lightgray;
+                                   color: black;
+                               "><i class="fas fa-angle-right" style="
+                                   margin-left: 2px;
+                               "></i>  2.5 </p>
+                               </div>
+                               <div class="col-sm-4">
+                                   <p style="
+                                   font-size: 12px;
+                                   margin-top: 2px;
+                                   color: red;
+                               "><i class="fas fa-angle-right" style="
+                                   margin-left: 2px;
+                               "></i>  2W Left </p>
+                               </div>
+                           </div>
+                       
+                   
+                       <meter style="width: 180px;height: 20px;/* padding-top: 0px; */margin-top: 20px;" value="0.6">60%</meter>
+                   
+                   
+                   <div class="thumbs">
+                       <img class="thumbs1" src="images/thumb1.png" alt="">
+                       <img class="thumbs2" src="images/thumb2.png" alt="">
+                       <img class="thumbs3" src="images/thumb1.png" alt="">
+                       <img class="thumbs4" src="images/thumb2.png" alt="">
+                       <img class="thumbs5" src="images/thumb1.png" alt="">
+                       <i class="fas fa-plus"></i>
+                   </div>
+                   
+                                   </div>
+                                 </div>
+                            </div>
+                   
+                   
+                   
+                   
+                   
+                            <div class="col-sm-3">
+                               <div class="card">
+                                   <img src="images/card3.png" alt="Avatar" style="width:100%">
+                                   <div class="container fr">
+                                     <h4><b>App UX Design</b></h4> 
+                                     <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste in optio facere debitis?</p> 
+                       
+                           <div class="row incptn">
+                                 <div class="col-sm-4">
+                                   <p style="
+                       background: lightgray;
+                       color: black;
+                   "><i class="fas fa-stopwatch"" style="
+                   margin-left: 2px;
+                   "></i>  10 </p>
+                   
+                   
+                                 </div>
+                                 <div class="col-sm-4">
+                                   <p style="
+                                   background: lightgray;
+                                   color: black;
+                               "><i class="fas fa-angle-right" style="
+                                   margin-left: 2px;
+                               "></i>  2.5 </p>
+                               </div>
+                               <div class="col-sm-4">
+                                   <p style="
+                                   font-size: 12px;
+                                   margin-top: 2px;
+                                   color: red;
+                               "><i class="fas fa-angle-right" style="
+                                   margin-left: 2px;
+                               "></i>  2W Left </p>
+                               </div>
+                           </div>
+                       
+                   
+                       <meter style="width: 180px;height: 20px;/* padding-top: 0px; */margin-top: 20px;" value="0.6">60%</meter>
+                   
+                   
+                   <div class="thumbs">
+                       <img class="thumbs1" src="images/thumb1.png" alt="">
+                       <img class="thumbs2" src="images/thumb2.png" alt="">
+                       <img class="thumbs3" src="images/thumb1.png" alt="">
+                       <img class="thumbs4" src="images/thumb2.png" alt="">
+                       <img class="thumbs5" src="images/thumb1.png" alt="">
+                       <i class="fas fa-plus"></i>
+                   </div>
+                   
+                                   </div>
+                                 </div>
+                            </div>
+                   
+                   
+                   
+                   
+                            <div class="col-sm-3">
+                               <div class="card">
+                                   <img src="images/card4.png" alt="Avatar" style="width:100%">
+                                   <div class="container fr">
+                                     <h4><b>App UX Design</b></h4> 
+                                     <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste in optio facere debitis?</p> 
+                       
+                           <div class="row incptn">
+                                 <div class="col-sm-4">
+                                   <p style="
+                       background: lightgray;
+                       color: black;
+                   "><i class="fas fa-stopwatch"" style="
+                   margin-left: 2px;
+                   "></i>  10 </p>
+                   
+                   
+                                 </div>
+                                 <div class="col-sm-4">
+                                   <p style="
+                                   background: lightgray;
+                                   color: black;
+                               "><i class="fas fa-angle-right" style="
+                                   margin-left: 2px;
+                               "></i>  2.5 </p>
+                               </div>
+                               <div class="col-sm-4">
+                                   <p style="
+                                   font-size: 12px;
+                                   margin-top: 2px;
+                                   color: red;
+                               "><i class="fas fa-angle-right" style="
+                                   margin-left: 2px;
+                               "></i>  2W Left </p>
+                               </div>
+                           </div>
+                       
+                   
+                       <meter style="width: 180px;height: 20px;/* padding-top: 0px; */margin-top: 20px;" value="0.6">60%</meter>
+                   
+                   
+                   <div class="thumbs">
+                       <img class="thumbs1" src="images/thumb1.png" alt="">
+                       <img class="thumbs2" src="images/thumb2.png" alt="">
+                       <img class="thumbs3" src="images/thumb1.png" alt="">
+                       <img class="thumbs4" src="images/thumb2.png" alt="">
+                       <img class="thumbs5" src="images/thumb1.png" alt="">
+                       <i class="fas fa-plus"></i>
+                   </div>
+                   
+                                   </div>
+                                 </div>
+                            </div>
+                   
+                   
+                   
+                           </section>
+                   
+        
+ 
+ 
+ 
+     <!-- Optional JavaScript; choose one of the two! -->
+ 
+     <!-- Option 1: Bootstrap Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+ 
+     <!-- Option 2: Separate Popper and Bootstrap JS -->
+     <!--
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+     -->
+   <!-- Code injected by live-server -->
+ <script type="text/javascript">
+     // <![CDATA[  <-- For SVG support
+     if ('WebSocket' in window) {
+         (function () {
+             function refreshCSS() {
+                 var sheets = [].slice.call(document.getElementsByTagName("link"));
+                 var head = document.getElementsByTagName("head")[0];
+                 for (var i = 0; i < sheets.length; ++i) {
+                     var elem = sheets[i];
+                     var parent = elem.parentElement || head;
+                     parent.removeChild(elem);
+                     var rel = elem.rel;
+                     if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                         var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                         elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                     }
+                     parent.appendChild(elem);
+                 }
+             }
+             var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+             var address = protocol + window.location.host + window.location.pathname + '/ws';
+             var socket = new WebSocket(address);
+             socket.onmessage = function (msg) {
+                 if (msg.data == 'reload') window.location.reload();
+                 else if (msg.data == 'refreshcss') refreshCSS();
+             };
+             if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                 console.log('Live reload enabled.');
+                 sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+             }
+         })();
+     }
+     else {
+         console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+     }
+     // ]]>
+ </script></body>
+ </html>
+ 
